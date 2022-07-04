@@ -1,0 +1,18 @@
+<form class="auth_page form_auth" (submit)="userRegisterClick()">
+  <div class="text-center mb-4">
+    <h1 class="h3 mb-3 font-weight-normal">Особистий кабінет</h1>
+    <p>Введіть дані, щоб увійти в особистий кабінет</p>
+  </div>
+
+  <input type="text" id="inputName" class="form-control" placeholder="Введіть ім'я" required="" autofocus="">
+  <input type="text" id="inputSurname" class="form-control" placeholder="Введіть прізвище" required="" autofocus="">
+  <input type="email" id="inputEmail" class="form-control" placeholder="Введіть Email" required="" autofocus="">
+  <input type="number" id="inputAge" class="form-control" placeholder="Введіть свій вік" required="" autofocus="">
+  <input type="password" id="inputPassword" class="form-control" placeholder="Введіть пароль" required="">
+  <input type="password" id="inputPassword2" class="form-control" placeholder="Введіть пароль ще раз" required="">
+  <button class="btn btn-lg btn-primary btn-block auth_button" type="submit">Зареєструватися</button>
+  <div>
+    <span>Маєте аккаунт?</span>
+    <a routerLink="../auth" class="stvor_reestr">Увійти в обліковий запис</a>
+  </div>
+</form>
