@@ -1,3 +1,5 @@
 export interface IToken {
-  access: string;
+  user: object;
+  access_token: string;
+  refresh_token: string;
 }

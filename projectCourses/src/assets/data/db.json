@@ -1,0 +1,129 @@
+{
+  "device": [
+    {
+      "deviceId": 1,
+      "id": 1,
+      "brand": "Lenovo",
+      "price": 15000,
+      "deviceImg": "http://localhost:4200/assets/холодильник.jpg",
+      "warranty": 5,
+      "is_available": true
+    },
+    {
+      "deviceId": 2,
+      "id": 1,
+      "brand": "Lenovo",
+      "price": 12999,
+      "deviceImg": "http://localhost:4200/assets/холодильник2.jpg",
+      "warranty": 5,
+      "is_available": true
+    },
+    {
+      "deviceId": 3,
+      "id": 2,
+      "brand": "Samsung",
+      "price": 2999,
+      "deviceImg": "http://localhost:4200/assets/мікрохвильовка.jpg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 4,
+      "id": 2,
+      "brand": "GORENJE",
+      "price": 1500,
+      "deviceImg": "http://localhost:4200/assets/мікрохвильовка2.jpg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 5,
+      "id": 2,
+      "brand": "LG",
+      "price": 1500,
+      "deviceImg": "http://localhost:4200/assets/мікро3.jpeg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 6,
+      "id": 3,
+      "brand": "HAIER",
+      "price": 29699,
+      "deviceImg": "http://localhost:4200/assets/пральнмаш1.jpg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 7,
+      "id": 3,
+      "brand": "WHIRLPOOL",
+      "price": 21999,
+      "deviceImg": "http://localhost:4200/assets/пральна2.jpg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 8,
+      "id": 4,
+      "brand": "ELECTROLUX",
+      "price": 6999,
+      "deviceImg": "http://localhost:4200/assets/духова.jpg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 9,
+      "id": 5,
+      "brand": "HANSA",
+      "price": 7999,
+      "deviceImg": "http://localhost:4200/assets/посудо.jpg",
+      "warranty": 1,
+      "is_available": true
+    },
+    {
+      "deviceId": 10,
+      "id": 6,
+      "brand": "SAMSUNG",
+      "price": 20999,
+      "deviceImg": "http://localhost:4200/assets/тв1.jpg",
+      "warranty": 1,
+      "is_available": true
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "typeName": "Холодильник"
+    },
+    {
+      "id": 2,
+      "typeName": "Мікрохвильовка"
+    },
+    {
+      "id": 3,
+      "typeName": "Пральна машина"
+    },
+    {
+      "id": 4,
+      "typeName": "Духова шафа"
+    },
+    {
+      "id": 5,
+      "typeName": "Посудомийна машина"
+    },
+    {
+      "id": 6,
+      "typeName": "Телевізор"
+    }
+
+  ],
+  "descriptions": [
+    { "id": 1, "body": "some comment", "householdAppliancesId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+
+  "profile": {
+    "name": "typicode"
+  }
+}

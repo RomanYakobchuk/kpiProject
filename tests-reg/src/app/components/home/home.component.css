@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "FuturaNewDemi", Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+
+span{
+  text-align: left;
+  margin: 20px 0;
+  font-size: 20px;
+  width: 80%;
+}
+.home {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: cornflowerblue;
+  cursor: pointer;
+  transition: 300ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 10px 0;
+}
+
+a:hover {
+  color: #f58020;
+}
+
