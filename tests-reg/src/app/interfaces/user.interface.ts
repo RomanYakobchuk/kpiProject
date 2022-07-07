@@ -12,4 +12,5 @@ export interface IUser {
   date_of_issue: string;
   phone: string;
   password: string;
+  role: string
 }

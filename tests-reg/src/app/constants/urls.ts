@@ -6,5 +6,8 @@ export const urls = {
   users:`${API}users`,
   auth:`${API}auth/login`,
   allUsers:`${API}users/allUsers`,
-  search: `${API}users?email=`
+  search: `${API}users?email=`,
+  searchRole: `${API}users?role=`,
+  delete: `${API}users/`,
+  searchByPassNumb: `${API}users?pass_number=`
 }
