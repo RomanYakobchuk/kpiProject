@@ -9,5 +9,11 @@ export const urls = {
   search: `${API}users?email=`,
   searchRole: `${API}users?role=`,
   delete: `${API}users/`,
-  searchByPassNumb: `${API}users?pass_number=`
+  searchByPassNumb: `${API}users?pass_number=`,
+  searchByName: `&name=`,
+  searchByTax: `&tax_number=`,
+  searchOnlyPass: `${API}users?pass_number=`,
+  searchOnlyName: `${API}users?name=`,
+  searchOnlyAge: `${API}users?age=`,
+  update: `${API}users/`
 }

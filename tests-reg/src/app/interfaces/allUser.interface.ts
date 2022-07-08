@@ -13,5 +13,6 @@ export interface IAllUser {
   role: string;
   createdAt:string;
   updatedAt:string;
-  email: string
+  email: string;
+  tax_number: string
 }
